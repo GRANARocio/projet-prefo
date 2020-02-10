@@ -1,0 +1,92 @@
+ /* CSS document */
+/* Mettre en bleu panthone les liens*/
+body {
+	margin: 0 auto;
+	width: 100%;
+}
+
+header{
+	background-image: url(../image/inca5.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+/* Changer le style des liens */
+h1,h2{
+	color: #194052;
+	margin: 0 auto;
+
+}
+nav a{
+	text-decoration: none;   /* Ne plus souligner les liens */
+	color: black; 
+	margin: 0 25px;       /* Espace entre les liens de la nav */
+}
+nav a:hover {
+	text-decoration: underline;
+	color: #194052;
+    margin: 0 25px;   /*Espace entre nos lesliens quand on le survol*/
+}   
+	
+nav {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+ul {
+	list-style: none;   /* Pour effacer l'affichage des puces */
+}
+
+.olivier{
+	float: left;
+	margin-right: 20px;
+}
+.gauche {
+	float: left;
+	display: block;
+	width: 400px;
+	height: auto;
+	padding-right: 20px;
+	margin-bottom: 20px;
+}
+.droite {
+	float: right;
+	display: block;
+	width: 400px;
+	height: auto;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+section{
+	width: 800px;
+	margin: 0 auto;
+}
+section p{
+	text-align: justify;
+}
+.gal {
+	width: 900px;
+	display: flex;
+	height: 550px;
+	margin: 50px auto;
+}
+.miniature {
+	display: inline-flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+.expo {
+margin: 60px auto 0 130px;
+text-align: left;
+}
+footer {
+	height: 125px;
+	background-color: #194052; 
+	z-index: 2;
+}
+footer h4 {
+	text-align: center;
+	color: white;
+	padding-top:80px;
+}
