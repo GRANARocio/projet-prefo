@@ -15,17 +15,17 @@ header{
 h1,h2{
 	color: #194052;
 	margin: 0 auto;
+} 
 
-}
 nav a{
 	text-decoration: none;   /* Ne plus souligner les liens */
 	color: black; 
-	margin: 0 25px;       /* Espace entre les liens de la nav */
+	margin: 40px 25px;       /* Espace entre les liens de la nav */
 }
 nav a:hover {
 	text-decoration: underline;
 	color: #194052;
-    margin: 0 25px;   /*Espace entre nos lesliens quand on le survol*/
+    margin: 40px 25px;   /*Espace entre nos lesliens quand on le survol*/
 }   
 	
 nav {
@@ -84,9 +84,37 @@ footer {
 	height: 125px;
 	background-color: #194052; 
 	z-index: 2;
+	bottom: 0;
 }
 footer h4 {
 	text-align: center;
 	color: white;
 	padding-top:80px;
 }
+@font-face {
+	font-family: geo;
+	src: url(police/GeosansLight.ttf);
+}
+@font-face {
+	font-family: geoss;
+	src: url(police/GeosansLight-Oblique.ttf);
+}
+*{
+	font-family: geo, sans-serif;
+}
+
+li .jaune{
+	color: gold;
+}
+li .bleu{
+	color: navy;
+}
+li .vert{
+	color: green;
+}
+li .orange{
+	color: #f06000;
+}
+li .rose{
+  color: pink;
+} 
